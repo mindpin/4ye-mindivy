@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "Futura-Condensed";
+  src: url('/font-futura/Futura-Condensed.eot');
+  src: local('☺'), 
+    url('/font-futura/Futura-Condensed.woff') format("woff"), 
+    url('/font-futura/Futura-Condensed.ttf') format("truetype"), 
+    url('/font-futura/Futura-Condensed.svg') format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.mindmap-ops{
+  .logo {
+    float: left;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Futura-Condensed";
+    height:30px;line-height:30px;
+    margin-top:10px;
+    margin-left:10px;
+    margin-right:10px;
+    .m {color:darken(#4C8FFD, 10%);}
+    .e {color:darken(#4CBBFD, 10%);}
+  }
+
+  .split {
+    border-radius:5px;
+    width:3px;
+    height:46px;
+    background-color:#ddd;
+    float:left;
+    margin-left:10px;
+    margin-top:2px;
+  }
+}
