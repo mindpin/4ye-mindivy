@@ -3,9 +3,9 @@ require 'mina/rails'
 require 'mina/git'
 
 set :domain, '106.186.119.248'
-set :deploy_to, '/web/anonymous-markdown-editor'
+set :deploy_to, '/web/4ye-mindivy'
 set :current_path, 'current'
-set :repository, 'git://github.com/mindpin/anonymous-markdown-editor.git'
+set :repository, 'git://github.com/mindpin/4ye-mindivy.git'
 set :branch, 'master'
 set :user, 'root'
 
