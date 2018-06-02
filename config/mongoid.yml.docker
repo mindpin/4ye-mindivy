@@ -1,0 +1,15 @@
+# https://github.com/mongodb/mongoid/blob/v4.0.2/spec/config/mongoid.yml
+# https://github.com/mongodb/mongoid/blob/v4.0.2/lib/rails/generators/mongoid/config/templates/mongoid.yml
+production:
+  sessions:
+    default:
+      database: <%= ENV["MONGODB_DATABASE"] %>
+      username: <%= ENV["MONGODB_USER"] %>
+      password: <%= ENV["MONGODB_PASSWORD"] %>
+      hosts:
+        - <%= ENV["MONGODB_HOST_1"] %>
+        - <%= ENV["MONGODB_HOST_2"] %>
+      options:
+        write:
+          w: 1
+        read: primary
